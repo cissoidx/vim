@@ -164,5 +164,5 @@ hi Normal ctermbg=234
 set term=screen-256color
 
 autocmd BufEnter,BufRead,BufNewFile *.py set iskeyword-=:
-
+autocmd FileType make setlocal noexpandtab
 
