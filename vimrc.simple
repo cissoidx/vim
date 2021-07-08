@@ -8,7 +8,7 @@ let name = "DONG Xu"
 set history=10000
 set showcmd
 
-" syntax on "syntax enable
+syntax on
 autocmd BufEnter * :syntax sync fromstart
 set wildmenu
 set showmatch
